@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import json
 
+=======
+>>>>>>> lesson-5
 with open("text.txt", "r", encoding='utf-8') as f:
     all_profit = 0
     num_comp = 0
@@ -19,8 +22,11 @@ with open("text.txt", "r", encoding='utf-8') as f:
     dict_average['average_profit'] = all_profit / num_comp
     list_comp.append(dict_comp)
     list_comp.append(dict_average)
+<<<<<<< HEAD
     with open("my_file.json", "w") as write_f:
         json.dump(list_comp, write_f)
+=======
+>>>>>>> lesson-5
     print(list_comp)
 
 
